@@ -90,7 +90,7 @@ iframe {
     }
 }
  */
-
+/* 
  @media only screen and (max-width: 375px) {
     iframe {
         top: 10px;
@@ -102,7 +102,7 @@ iframe {
         -o-transform: scale(1.17);
 }
   }
-
+ */
 /*   @media only screen and (min-width: 425px) {
     iframe {
         top: 80px;
