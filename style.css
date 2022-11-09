@@ -1,0 +1,135 @@
+body {
+    background: black
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+linkdiv {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    border-radius: 100px;
+    width: 85%;
+    padding: 9px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+linkdivorange {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    border-radius: 100px;
+    width: 85%;
+    padding: 10px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('coolvetica.woff') format('woff');
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+}
+
+#links {
+    max-width: 100%;
+    width: auto;
+    margin: 20px auto;
+}
+
+/* NORMAL */
+.normal {
+    font-family: "coolvetica";
+    padding-top: 6px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    outline: 0;
+    font-size: 28px;
+    color: black;
+    background: white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+/* ORANGE */
+.orange {
+    font-family: "coolvetica";
+    padding-top: 6px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    outline: 0;
+    font-size: 28px;
+    color: white;
+    background: #F04E23;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+p {
+    font-family: "coolvetica";
+    color: white;
+}
+
+h2 {
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -1.7px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'coolvetica';
+    letter-spacing: -0.5px;
+    font-size: 35px;
+    color: white;
+    margin-top: -10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+imgdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 85%;
+    height: 85%;
+}
+
+.grafica {
+    width: 380px;
+}
