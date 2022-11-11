@@ -52,7 +52,6 @@ a {
     margin: 20px auto;
 }
 
-/* NORMAL */
 .normal {
     font-family: "coolvetica";
     padding-top: 6px;
@@ -70,7 +69,6 @@ a {
     -o-border-radius: 100px;
 }
 
-/* ORANGE */
 .orange {
     font-family: "coolvetica";
     padding-top: 6px;
@@ -97,8 +95,9 @@ h2 {
     font-size: 21px;
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
-    letter-spacing: -1.7px;
+    letter-spacing: -1px;
     color: white;
+    margin-bottom: 7px;
 }
 
 h1 {
