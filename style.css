@@ -132,3 +132,22 @@ imgdiv {
 .grafica {
     width: 380px;
 }
+
+@media only screen and (min-width: 600px) {
+    .grafica {
+        width: 600px;
+    }
+
+    linkdivorange {
+    width: 60%;
+    }
+
+    linkdiv {
+        width: 60%;
+        }
+
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+  }
