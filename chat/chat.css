@@ -5,6 +5,7 @@
     height: 100%;
     padding-top: 180%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
     background-color: transparent;
+    border: none;
   }
   
   /* Then style the iframe to fit in the container div with full height and width */
@@ -23,4 +24,5 @@
     background-image: url("/cover.png");
     background-size: 100%;
     background-color: #cccccc;
+    border: none;
    }
