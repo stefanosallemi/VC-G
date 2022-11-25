@@ -26,8 +26,10 @@
     background-color: #cccccc;
     border: none;
    }
-
-   .chatmb{
-    width: fit-content;
-    height: fit-content;
-   }
+   
+   /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 500px) {
+  .chatmb {
+    background-color: blue;
+  }
+}
